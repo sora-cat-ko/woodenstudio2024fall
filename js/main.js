@@ -18,7 +18,6 @@ mm.add("(min-width: 1025px)", () => {
             scrollTrigger: {
                 trigger: ".concept-first .column-left",
                 start: "top center",
-                // markers: true,
             }
         }
     )
@@ -37,28 +36,9 @@ mm.add("(min-width: 1025px)", () => {
             scrollTrigger: {
                 trigger: ".concept-first .column-right",
                 start: "top center",
-                // markers: true,
             }
         }
     )
-
-    // gsap.fromTo(
-    //     "#works",
-    //     2,
-    //     {
-    //         y: 200,
-    //         opacity: 0
-    //     },
-    //     {
-    //         y: 0,
-    //         opacity: 1,
-    //         scrollTrigger: {
-    //             trigger: "#works",
-    //             start: "top center",
-    //             markers: true,
-    //         }
-    //     }
-    // )
 })
 
 
@@ -77,7 +57,6 @@ mm.add("(max-width: 599px)", () => {
             scrollTrigger: {
                 trigger: ".concept-first .column-left",
                 start: "top center",
-                // markers: true,
             }
         }
     )
@@ -95,7 +74,6 @@ mm.add("(max-width: 599px)", () => {
             scrollTrigger: {
                 trigger: ".concept-first .column-right",
                 start: "top center",
-                // markers: true,
             }
         }
     )
